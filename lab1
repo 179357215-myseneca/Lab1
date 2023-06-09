@@ -1,0 +1,16 @@
+def calculate_age():
+    try:
+        name = input("Write your name: ")
+        birth_year = int(input("Enter your birth year: "))
+        current_year = 2023  # Update with the current year
+        age = current_year - birth_year
+        print(f"Hello {name}, you are {age} years old.")
+    except TypeError:
+        print("Please enter an int")
+
+calculate_age()
+
+def helloWorld():
+    print('Hello World')
+
+helloWorld()
